@@ -1,0 +1,7 @@
+W11Ult:
+- Size = 9.3GB
+- Background tasks = 16
+
+Original: 
+- Size = 28.3GB
+- Background tasks = 47
