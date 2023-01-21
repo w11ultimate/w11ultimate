@@ -32009,7 +32009,11 @@ h4,
 h5,
 h6 {
 	margin-bottom: 10px;
-	clear: both
+	clear: both;
+}
+
+h3{
+	text-align: left;
 }
 
 a:hover,
