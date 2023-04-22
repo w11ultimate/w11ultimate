@@ -1497,7 +1497,6 @@
                                        <div class="uvc-main-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-55705eeca62e91701 h2' data-responsive-json-new='{"font-size":"desktop:58px;tablet:46px;mobile_landscape:42px;","line-height":"desktop:100px;tablet:52px;mobile_landscape:46px;"}'>
                                           <h2 style="font-family:&#039;Roboto&#039;;font-weight:300;color:#000000;margin-bottom:15px;">Download Windows 11 Ultimate</h2>
                                        </div>
-                                       <div class="uvc-sub-heading ult-responsive" data-ultimate-target='.uvc-heading.ultimate-heading-55705eeca62e91701 .uvc-sub-heading ' data-responsive-json-new='{"font-size":"desktop:28px;tablet:26px;mobile_landscape:24px;","line-height":"desktop:38px;tablet:36px;mobile_landscape:34px;"}' style="font-family:&#039;Roboto&#039;;font-weight:300;color:#000000;margin-bottom:35px;">$24.99 for one installation</div>
                                     </div>
                                     <style type="text/css" data-type="w11_shortcodes-inline-css">
                                        #default-btn-54529a299f2d57664876d1ba7883577c.ico-right-side > i {
@@ -1511,55 +1510,7 @@
                                        vertical-align: middle;
                                        }
                                     </style>
-                                    <div class="btn-align-center" id="download-button"><a href="#download" class="default-btn-shortcode dt-btn dt-btn-l link-hover-off " id="default-btn-54529a299f2d57664876d1ba7883577c" style="width:200px;" rel="noopener"><span>Download</span></a></div>
-                                    <div id="download-content">
-                                       <div id="smart-button-container">
-                                          <div style="text-align: center;">
-                                             <div id="paypal-button-container"></div>
-                                          </div>
-                                       </div>
-                                       <script src="https://www.paypal.com/sdk/js?client-id=AZwlxAlR1wR8BqpD4RZ6L4q2D7MlXZYKRsk9FNWI6hk_tftAm21i5qOMPYe4BioxQjQBZNzt07ZC6l0N&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-                                       <script>
-                                          function initPayPalButton() {
-                                            paypal.Buttons({
-                                              style: {
-                                                shape: 'rect',
-                                                color: 'gold',
-                                                layout: 'vertical',
-                                                label: 'paypal',
-                                                
-                                              },
-                                          
-                                              createOrder: function(data, actions) {
-                                                return actions.order.create({
-                                                  purchase_units: [{"description":"Windows 11 Ultimate","amount":{"currency_code":"USD","value":24.99}}]
-                                                });
-                                              },
-                                          
-                                              onApprove: function(data, actions) {
-                                                return actions.order.capture().then(function(orderData) {
-                                                  
-                                                  // Full available details
-                                                  console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                                          
-                                                  // Show a success message within this page, e.g.
-                                                  const element = document.getElementById('paypal-button-container');
-                                                  element.innerHTML = '';
-                                                  element.innerHTML = '<h4>Thank you for your payment! Download your ISO Here: <a href="https://mega.nz/file/RBMgQAyQ#Fn01axxpkL1eI3PigEhPBRL_T7Loy1QBPNK_HNSr__s">Windows 11 Ultimate</a><br></br>You will receive an e-mail with instructions for the script with final tweaks.</h4>';
-                                          
-                                                  // Or go to another URL:  actions.redirect('thank_you.html');
-                                                  
-                                                });
-                                              },
-                                          
-                                              onError: function(err) {
-                                                console.log(err);
-                                              }
-                                            }).render('#paypal-button-container');
-                                          }
-                                          initPayPalButton();
-                                       </script>
-                                    </div>
+                                    <div class="btn-align-center" id="download-button"><a href="https://mega.nz/file/RBMgQAyQ#Fn01axxpkL1eI3PigEhPBRL_T7Loy1QBPNK_HNSr__s" class="default-btn-shortcode dt-btn dt-btn-l link-hover-off " id="default-btn-54529a299f2d57664876d1ba7883577c" style="width:200px;" rel="noopener"><span>Download</span></a></div>
                                  </div>
                               </div>
                            </div>

@@ -19,17 +19,6 @@
 	box-sizing: border-box
 }
 
-#download-content {
-    display: none;
-}
-
-#download:target #download-content{
-    display: block;
-}
-
-#download:target #download-button {
-    display: none;
-}
 rs-debug {
 	z-index: 100000;
 	position: fixed;
